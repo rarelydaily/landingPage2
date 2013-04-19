@@ -1,0 +1,117 @@
+body {
+	background-image:url('../img/bright_squares.png');
+	background-repeat:repeat;
+}
+
+/*=========================
+NAVBAR
+=========================*/
+
+.navbar-inner > .container{
+	width:960px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+}
+
+.navbar-inner {
+	border-radius: 0px;
+	background: #000 !important; 
+	border: 0px !important;
+}
+
+.navbar a.brand {
+	padding-top: 18px;
+}
+
+.navbar .nav > li > a {
+	text-shadow: none;
+	color: #ccc !important;
+}
+
+.navbar .nav > li {
+	padding-top: 16px;
+}
+
+a {
+	color: white !important;
+}
+
+
+/*=========================
+FOLD
+=========================*/
+
+h1 {
+	font-family: Helvetica-Bold;
+	font-size: 36px;
+	color: ##181818;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-size: 20px;
+	color: #666;
+	line-height: 24px;
+	letter-spacing: 2px;
+}
+
+.row {
+	margin-left: 0px;
+}
+
+.center {
+	float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fold {
+	margin-top: 16px;
+}
+
+/*This part puts the thumbnails in bootstrap centered on the screen*/
+
+.thumbnails {
+    text-align:center;
+}
+
+.thumbnails > li {
+    display: inline-block;
+    *display:inline; /* ie7 fix */
+    float: none; /* this is the part that makes it work */
+}
+
+/*=========================
+BELOW FOLD
+=========================*/
+
+.container#belowFold {
+	background: white !important;
+	width: 100%;
+	margin-top: 20px;
+	padding-bottom: 20px;
+
+	-moz-box-shadow:    0px -2px 30px 0 rgba(0,0,0,0.80);
+	-webkit-box-shadow: 0px -2px 30px 0 rgba(0,0,0,0.80);
+	box-shadow:         0px -2px 30px 0 rgba(0,0,0,0.60);
+
+}
+
+.btn-custom {
+	border-radius: 8px;
+
+	background-image: -o-linear-gradient(180deg, #DE5828 0%, #B84A22 100%);
+	background-image: -moz-linear-gradient(180deg, #DE5828 0%, #B84A22 100%);
+	background-image: -webkit-linear-gradient(180deg, #DE5828 0%, #B84A22 100%);
+	background-image: -ms-linear-gradient(180deg, #DE5828 0%, #B84A22 100%);
+	background-image: linear-gradient(180deg, #DE5828 0%, #B84A22 100%);
+
+	border: 1px solid #DE5828;
+
+	-moz-box-shadow:    0px 2px 4px 0 rgba(0,0,0,0.50);
+	-webkit-box-shadow: 0px 2px 4px 0 rgba(0,0,0,0.50);
+	box-shadow:         0px 2px 4px 0 rgba(0,0,0,0.50);
+}
