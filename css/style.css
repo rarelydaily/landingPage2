@@ -34,11 +34,6 @@ NAVBAR
 	padding-top: 16px;
 }
 
-a {
-	color: white !important;
-}
-
-
 /*=========================
 FOLD
 =========================*/
@@ -114,4 +109,15 @@ BELOW FOLD
 	-moz-box-shadow:    0px 2px 4px 0 rgba(0,0,0,0.50);
 	-webkit-box-shadow: 0px 2px 4px 0 rgba(0,0,0,0.50);
 	box-shadow:         0px 2px 4px 0 rgba(0,0,0,0.50);
+}
+
+.text-center a {
+	color: white !important;
+	text-shadow: none;
+}
+
+.btn-custom:hover {
+	color: #ffffff;
+  	background-color: #bd362f;
+  	*background-color: #a9302a;
 }
